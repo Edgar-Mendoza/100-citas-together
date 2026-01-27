@@ -41,7 +41,7 @@ const Hero = () => {
             </motion.div>
             
             <h1 className="heading-display text-foreground mb-6">
-              <span className="block">100 Citas</span>
+              <span className="block">1000 Citas</span>
               <span className="text-elegant text-gold block mt-2">Juntos</span>
             </h1>
             
