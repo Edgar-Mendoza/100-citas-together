@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { BookOpen, Users, Heart } from "lucide-react";
-import product100Citas from "@/assets/product-100-citas.png";
+import libroCitas from "@/assets/product-100-citas-sbg.png"; 
+
 const steps = [{
   number: "01",
   icon: BookOpen,
@@ -52,7 +53,7 @@ const HowItWorks = () => {
             rotate: 3
           }} transition={{
             duration: 0.3
-          }} src="./src/assets/product-100-citas-sbg.png" />
+          }} src={libroCitas} />
           </motion.div>
 
           {/* Content */}

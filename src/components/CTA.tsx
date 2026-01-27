@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import { Button } from "./ui/button";
 import { Check, Heart, ShieldCheck, Truck, Gift } from "lucide-react";
-import product100Citas from "@/assets/product-100-citas.png";
+import libroCitas from "@/assets/product-100-citas-sbg.png";
+
 const includes = [{
   icon: Heart,
   text: "100 citas únicas y creativas"
@@ -71,7 +72,7 @@ const CTA = () => {
             }} transition={{
               duration: 0.3
             }}>
-                <img alt="100 Citas Juntos" className="w-56 md:w-72 drop-shadow-2xl" src="./src/assets/product-100-citas-sbg.png" />
+                <img alt="100 Citas Juntos" className="w-56 md:w-72 drop-shadow-2xl" src={libroCitas} />
               </motion.div>
               
               {/* Content */}

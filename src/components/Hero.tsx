@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Button } from "./ui/button";
 import { Heart, Sparkles } from "lucide-react";
 import FloatingHearts from "./FloatingHearts";
+import libroCitas from "@/assets/product-100-citas-sbg.png";
 
 const Hero = () => {
   return <section className="relative min-h-screen gradient-hero flex items-center pt-20 overflow-hidden">
@@ -114,7 +115,7 @@ const Hero = () => {
             repeat: Infinity,
             ease: "easeInOut"
           }} className="relative z-10">
-              <img alt="100 Citas Juntos - Libro de experiencias románticas" className="w-72 md:w-96 drop-shadow-2xl" src="./src/assets/product-100-citas-sbg.png" />
+              <img alt="100 Citas Juntos - Libro de experiencias románticas" className="w-72 md:w-96 drop-shadow-2xl" src={libroCitas} />
               
               {/* Floating badges */}
               <motion.div initial={{
